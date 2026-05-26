@@ -1,0 +1,98 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body Styling */
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(to right,#141e30,#243b55);
+
+    font-family:Arial, sans-serif;
+    color:white;
+}
+
+/* Main Container */
+.container{
+    width:80%;
+    max-width:700px;
+
+    padding:30px;
+
+    background:rgba(255,255,255,0.1);
+
+    border-radius:20px;
+
+    backdrop-filter:blur(10px);
+
+    text-align:center;
+
+    box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Heading */
+h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+/* Paragraph */
+p{
+    margin-bottom:20px;
+}
+
+/* Input Box */
+.input-box{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* Inputs */
+input,select{
+    padding:12px;
+
+    border:none;
+    border-radius:10px;
+
+    font-size:16px;
+}
+
+/* Button */
+button{
+    padding:12px;
+
+    border:none;
+    border-radius:10px;
+
+    background:#00c6ff;
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+/* Hover Effect */
+button:hover{
+    background:#0072ff;
+}
+
+/* Story Box */
+.story-box{
+    margin-top:30px;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    background:rgba(255,255,255,0.1);
+}
